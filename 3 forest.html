@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>The Forest Biome | The Survival Runner</title>
+        <link rel="stylesheet" href="3 forest.css"/>
+        <link rel="icon" href="Resources/logo.ico"/>
+    </head>
+
+    <body onkeyup="keyCheck(event);" class="body">
+        <div class="bg" id="bg">
+            <div class = scoreboard>
+            <div class="score" id="score">0</div>
+            </div>
+            <img src="Forest Biome/Little Dino/Run (1).png" class="boy" id="boy"/>
+        </div>
+        <div class="gameover" id="gameOver">
+            
+            <div class="dash2">
+                <ol class="win">
+                    <li class="t11">GAME OVER</li>
+                    <li class="t2">Your Last Score</li>
+                    <li class="winScore" id="endScore">0</li>
+                </ol>
+                <button class="button" onclick="re();">Try again</button>
+            </div>
+        </div>
+
+        <div class="gameWon" id="gameWon">
+            <div class="dash2">
+                <ol class="win">
+                    <li class="t12">YOU WON</li>
+                    <li class="t2">Your Win Score</li>
+                    <li class="winScore" id="winScore">0</li>
+                </ol>
+                <button class="button" onclick="re();">Try again</button>
+            </div>
+        </div>
+
+        <a href="selectmap.html"><img src="Resources/14.png" class="maps1"/></a>
+        <a href="start.html"><img src="Resources/Home.png" class="back1"/></a>
+    
+
+        <script src="3 forest.js"></script>
+    </body>
+</html>

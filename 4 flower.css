@@ -1,0 +1,154 @@
+.body{
+    margin: 0px;
+    background-color: cadetblue;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+.bg{
+    background-image:url("Resources/L3\ bg.jpg");
+    width:100vw;
+    height:74vh;
+    margin-top: 100px;
+    background-repeat: repeat-x;
+    overflow-x: hidden;
+    position: absolute;
+}
+
+.boy{
+    position: absolute;
+    height: 200px;
+    margin-top: 400px;
+    margin-left: 150px;
+}
+
+.block{
+    width: 100px;
+    height: 110px;
+    position:absolute;
+    margin-Top: 490px;
+    background-size: cover;
+    background-image: url("Resources/sanke.gif");
+}
+
+.score{
+
+    position:absolute;
+    font-size: 60px;
+    font-weight: bold;
+    margin-left: 105px;
+    margin-top: 25px;
+    font-family: "Arial";
+}
+.scoreboard{
+    position:absolute;
+    background-size: cover;
+    width: 300px;
+    height: 120px;
+    margin-left: 490px;
+    margin-top: 15px;
+    background-image: url("Resources/Score.png");
+}
+.gameover{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    visibility:hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-family: Arial;
+    font-weight: bold;
+}
+.gameWon{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+.button{
+    position: absolute;
+    width: 200px;
+    height: 70px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Arial";
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: chocolate;
+    color: white;
+    margin-top: 250px;
+    margin-left: 165px;
+    transition: transform 500ms;
+}
+.button:hover{
+    transform: scale(1.1);
+}
+
+.maps1{
+    position: absolute;
+    background-size: 10px;
+    width: 80px;
+    height: 80px;
+    margin-left: 90%;
+    margin-top: 130px;
+    transition: transform 500ms;
+    cursor: pointer;
+}
+.maps1:hover{
+    transform: scale(1.1);
+}
+
+.back1{
+    position: absolute;
+    background-size: 10px;
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    margin-left: 82%;
+    margin-top: 130px;
+    transition: transform 500ms;
+}
+.back1:hover{
+    transform: scale(1.1);
+}
+.dash2{
+    position:absolute;
+    width: 550px;
+    height: 400px;
+    margin-top: -50px;
+    background-image: url("Resources/dash.png");
+    background-size: cover;
+}
+
+.win{
+    position: absolute;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-left: 50px;
+    list-style: none;
+    color: rgb(11, 8, 5);
+}
+
+.t11{
+    margin-left: 30px;
+}
+.t12{
+    margin-left: 60px;
+}
+
+.winScore{
+    margin-left: 110px;
+    margin-top: -10px;
+    font-size: 80px;
+}

@@ -1,0 +1,183 @@
+.body{
+    margin: 0px;
+}
+
+.bgmenu{
+    background-image: url("Resources/menu\ bg.jpg");
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+}
+
+.title4{
+    position: absolute;
+    margin-left: 400px;
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 500;
+    color: bisque;
+}
+
+.dashboard{
+    position: absolute;
+    background-image: url("Resources/dash.png");
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: 70px;
+    justify-content: center;
+    display: flex;
+}
+
+.dashboard2{
+    position: absolute;
+    background-image: url("Resources/dash.png");
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    margin-top: 500px;
+    margin-left: 70px;
+    justify-content: center;
+    display: flex;
+}
+
+.dashboard3{
+    position: absolute;
+    background-image: url("Resources/dash.png");
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    margin-top: 500px;
+    margin-left: 460px;
+    justify-content: center;
+    display: flex;
+
+}
+
+.dashboard4{
+    position: absolute;
+    background-image: url("Resources/dash.png");
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: 460px;
+    justify-content: center;
+    display: flex;
+}
+
+.dashboard5{
+    position: absolute;
+    background-image: url("Resources/dash.png");
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    margin-top: 100px;
+    margin-left: 850px;
+    justify-content: center;
+    display: flex;
+}
+
+.dashboard6{
+    position: absolute;
+    background-image: url("Resources/dash.png");
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    margin-top: 500px;
+    margin-left: 850px;
+    justify-content: center;
+    display: flex;
+}
+
+.title{
+    font-size: 30px;
+    font-family:cursive;
+    font-weight: bold;
+    background-size: cover;
+    color: white;
+}
+
+.city{
+    position:absolute;
+    height: 120px;
+    width: 260px;
+    margin-top: 85px;
+    margin-left: -160px;
+    transition: transform 500ms;
+}
+.city:Hover{
+    transform: scale(1.1);
+}
+
+.desert{
+    position:absolute;
+    height: 120px;
+    width: 260px;
+    margin-top: 85px;
+    margin-left: -230px;
+    transition: transform 500ms;
+}
+.desert:hover{
+    transform: scale(1.1);
+}
+.flower{
+    position:absolute;
+    height: 120px;
+    width: 260px;
+    margin-top: 85px;
+    margin-left: -220px;
+    transition: transform 500ms;
+}
+.flower:hover{
+    transform: scale(1.1);
+}
+.forest{
+    position:absolute;
+    height: 120px;
+    width: 260px;
+    margin-top: 85px;
+    margin-left: -220px;
+    transition: transform 500ms;
+}
+.forest:hover{
+    transform: scale(1.1);
+}
+.plain{
+    position:absolute;
+    height: 120px;
+    width: 260px;
+    margin-top: 85px;
+    margin-left: -210px;
+    transition: transform 500ms;
+}
+.plain:hover{
+    transform: scale(1.1);
+}
+.snow{
+    position:absolute;
+    height: 120px;
+    width: 260px;
+    margin-top: 85px;
+    margin-left: -210px;
+    transition: transform 500ms;
+}
+.snow:hover{
+    transform: scale(1.1);
+}
+
+.start{
+    position: absolute;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-image: url("Resources/Home.png");
+    margin-top: 400px;
+    margin-left: 590px;
+    transition: transform 500ms;
+}
+.start:hover{
+    transform: scale(1.5);
+}
